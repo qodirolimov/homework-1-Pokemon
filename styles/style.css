@@ -1,0 +1,154 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+.container{
+   width: 1440px;
+   background: #FFD845;
+ margin-left: 40px;
+ padding: 90px;
+ 
+}
+
+.pokemon_logo{
+   width: 610px;
+   height: 225px;
+   position: relative;
+   left: 340px;
+   top: -40px;
+}
+
+.wrap_first{
+  width: 1040px;
+  position: relative;
+  top: 70px; 
+  left: 140px;
+}
+
+.select_first{
+   width: 179px;
+   padding: 11px;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+   position: relative;
+   left: 58px;
+}
+
+.select_second{
+   width: 179px;
+   padding: 11px;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+   position: relative;
+   left: 108px;
+}
+
+.search{
+ width: 241px;
+ padding: 12px;
+ position: relative;
+ left: 86px;
+ border-radius: 8px;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ -ms-border-radius: 8px;
+ -o-border-radius: 8px;
+}
+
+
+
+.button{
+ width: 171px;
+ padding: 12px;
+ position: relative;
+ left: 146px;
+ border-radius: 8px;
+ -webkit-border-radius: 8px;
+ -moz-border-radius: 8px;
+ -ms-border-radius: 8px;
+ -o-border-radius: 8px; 
+}
+
+.wrap2{
+   width: 1200px;
+  position: relative;
+   left: 49px;
+   top: 84px;
+   display: grid;
+   gap: 15px;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(Auto-fill,498px);
+}
+
+
+
+.card2 {
+   width: 280px;
+   height: 420px;
+   border: 2px solid #000000;
+   top: -2px;
+   position: relative;
+   background: #FFFFFF;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+}
+
+.line{
+   width: 277px;
+   height: 2px;
+   background: #000000;
+   position: relative;
+   top: 98px;
+}
+
+.title{
+   width: 98px;
+}
+
+.rasm{
+   width: 157px;
+   height: 157px;
+   position: relative;
+   left: 50px;
+   top: 30px;
+}
+
+.title_first{
+   position: relative;
+   top: 112px;
+   left: 30px;
+   font-size: 22px;
+}
+
+.title_second{
+   position: relative;
+   top: 119px;
+   left: 32px;  
+}
+
+.text1{
+   position: relative;
+   top: 149px;
+   left: 29px;font-weight: bold; 
+   font-size: 21px;
+}
+
+.text2{
+   position: relative;
+   top: 125px;
+   left: 122px;
+   font-weight: bold; 
+   font-size: 21px;
+}
